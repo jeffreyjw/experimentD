@@ -311,6 +311,8 @@
         {
             "file": "scripts\\gaslib\\Iterator.js",
             "line": 18,
+            "itemtype": "method",
+            "name": "hasNext",
             "return": {
                 "description": "true if collection has next item, otherwise false.",
                 "type": "Boolean"
@@ -319,7 +321,9 @@
         },
         {
             "file": "scripts\\gaslib\\Iterator.js",
-            "line": 28,
+            "line": 29,
+            "itemtype": "method",
+            "name": "next",
             "return": {
                 "description": "item of collection and iterates index.",
                 "type": "*"
@@ -902,7 +906,7 @@
         },
         {
             "message": "replacing incorrect tag: returns with return",
-            "line": " scripts\\gaslib\\Iterator.js:28"
+            "line": " scripts\\gaslib\\Iterator.js:29"
         },
         {
             "message": "replacing incorrect tag: returns with return",
@@ -959,14 +963,6 @@
         {
             "message": "Missing item type",
             "line": " scripts\\gaslib\\GasNetwork.js:16"
-        },
-        {
-            "message": "Missing item type",
-            "line": " scripts\\gaslib\\Iterator.js:18"
-        },
-        {
-            "message": "Missing item type",
-            "line": " scripts\\gaslib\\Iterator.js:28"
         },
         {
             "message": "Missing item type",

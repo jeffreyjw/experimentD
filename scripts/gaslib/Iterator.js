@@ -16,6 +16,7 @@ define([], function(){
     Iterator.constructor = Iterator;
 
     /**
+     * @method hasNext
      * @returns {boolean} true if collection has next item, otherwise false.
      */
     Iterator.prototype.hasNext = function() {
@@ -26,6 +27,7 @@ define([], function(){
     };
 
     /**
+     * @method next
      * @returns {*} item of collection and iterates index.
      */
     Iterator.prototype.next = function() {
