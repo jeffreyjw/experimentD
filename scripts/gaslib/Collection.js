@@ -2,6 +2,12 @@ define([
     "gaslib/Iterator"
 ], function(Iterator){
 
+    /**
+     * Collection class.
+     *
+     * @class Collection
+     * @constructor
+     */
     var Collection = function(){
         this.__collection = [];
     };
