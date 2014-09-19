@@ -3,6 +3,12 @@ define([
     "gaslib/Helpers"
 ], function(Point, Helpers){
 
+    /**
+     * Class representing a pipe in the network
+     *
+     * @class Pipe
+     * @constructor
+     */
     var Pipe = function(){
         this.flow = 0;
         this.maxFlow = 0;
@@ -10,10 +16,14 @@ define([
         this.finish = new Point();
     };
 
-
+    /**
+     * @type {Pipe}
+     */
     Pipe.constructor = Pipe;
 
-
+    /**
+     * @returns {number} Flow ratio of a maximum value.
+     */
     Pipe.prototype.usage = function(){
         if (this.maxFlow > 0)
         {
