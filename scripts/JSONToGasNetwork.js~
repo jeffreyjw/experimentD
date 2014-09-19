@@ -1,0 +1,52 @@
+define([
+    "gaslib/GasNetwork",
+    "gaslib/Pipe",
+    "gaslib/Node",
+    "gaslib/Angle"
+], function(GasNetwork, Pipe, Node, Angle){
+    "use strict";
+
+    var JSONToGasNetwork = function(data){
+        var gasNetwork = new GasNetwork();
+
+        var j = function(val, unit){
+            if (unit == 'deg')
+                return val
+            else
+                return Angle.radianToDegree(val)
+        };
+
+        for (var i = 0; i < data.pipes.length; ++i)
+        {
+            var pipeData =  data.pipes[i];
+
+            var pipe = new Pipe();
+
+            pipe.start.lat = j(pipeData.start.lat, pipeData.start.unit);
+            pipe.start.lng = j(pipeData.start.lng, pipeData.start.unit);
+            pipe.finish.lat = j(pipeData.end.lat, pipeData.end.unit);
+            pipe.finish.lng = j(pipeData.end.lng, pipeData.end.unit);
+            pipe.maxFlow = pipeData.maxFlow;
+            pipe.flow = pipeData.flow;
+
+            gasNetwork.addPipe(pipe);
+        }
+
+        for (var i = 0; i < data.nodes.length; ++i)
+        {
+            var nodeData =  data.nodes[i];
+
+            var node = new Node();
+            node.position.lat = nodeData.lat;
+            node.position.lng = nodeData.lng;
+            node.caption = nodeData.caption;
+
+            gasNetwork.addNode(node);
+        }
+
+        return gasNetwork;
+    };
+
+
+    return JSONToGasNetwork;
+});

@@ -1,0 +1,15 @@
+require([
+    "networkData",
+    "maplib/MapDrawer",
+    "JSONToGasNetwork",
+    "Application"
+], function(networkData, MapDrawer, JSONToGasNetwork, Application){
+
+    var gasNetwork = JSONToGasNetwork(networkData);
+    var drawer = new MapDrawer(document.getElementById("map"));
+
+
+    var app = new Application(gasNetwork, drawer);
+    app.run();
+
+});
