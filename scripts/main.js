@@ -36,4 +36,5 @@ require([
 		drawer.drawMarker(node.position, {caption: "caption", content: node.getName() + "(" + node.position.lat + "," + node.position.lng + ")", popup:"popup"});
 	});
 
+	drawer.initAnimations();
 });
