@@ -351,15 +351,17 @@
         {
             "file": "scripts\\gaslib\\Pipe.js",
             "line": 24,
+            "itemtype": "method",
+            "name": "usage",
             "return": {
                 "description": "Flow ratio of a maximum value.",
-                "type": "Number"
+                "type": "Float"
             },
             "class": "Pipe"
         },
         {
             "file": "scripts\\gaslib\\Pipe.js",
-            "line": 38,
+            "line": 39,
             "itemtype": "method",
             "name": "lengthInKm",
             "return": {
@@ -775,7 +777,7 @@
         },
         {
             "message": "replacing incorrect tag: returns with return",
-            "line": " scripts\\gaslib\\Pipe.js:38"
+            "line": " scripts\\gaslib\\Pipe.js:39"
         },
         {
             "message": "unknown tag: license",
@@ -816,10 +818,6 @@
         {
             "message": "Missing item type",
             "line": " scripts\\gaslib\\Pipe.js:19"
-        },
-        {
-            "message": "Missing item type",
-            "line": " scripts\\gaslib\\Pipe.js:24"
         },
         {
             "message": "Missing item type",

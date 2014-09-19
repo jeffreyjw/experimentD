@@ -22,7 +22,8 @@ define([
     Pipe.constructor = Pipe;
 
     /**
-     * @returns {number} Flow ratio of a maximum value.
+     * @method usage
+     * @returns {float} Flow ratio of a maximum value.
      */
     Pipe.prototype.usage = function(){
         if (this.maxFlow > 0)
