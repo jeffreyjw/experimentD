@@ -14,7 +14,9 @@ define([
         this.caption = "Node";
     };
 
-
+    /**
+     * @type {Node}
+     */
     Node.constructor = Node;
 
 
