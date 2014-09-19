@@ -236,7 +236,23 @@
         },
         {
             "file": "scripts\\gaslib\\Collection.js",
-            "line": 17,
+            "line": 12,
+            "itemtype": "method",
+            "name": "add",
+            "params": [
+                {
+                    "name": "element",
+                    "description": "",
+                    "type": "*"
+                }
+            ],
+            "class": "GasNetwork"
+        },
+        {
+            "file": "scripts\\gaslib\\Collection.js",
+            "line": 20,
+            "itemtype": "method",
+            "name": "iterator",
             "return": {
                 "description": "Iterator of collection.",
                 "type": "Iterator"
@@ -305,11 +321,12 @@
             "file": "scripts\\gaslib\\Node.js",
             "line": 22,
             "itemtype": "method",
-            "name": "Setter for caption.",
+            "name": "setName",
             "params": [
                 {
                     "name": "name",
-                    "description": ""
+                    "description": "- name of Node.",
+                    "type": "String"
                 }
             ],
             "class": "Node"
@@ -318,9 +335,9 @@
             "file": "scripts\\gaslib\\Node.js",
             "line": 30,
             "itemtype": "method",
-            "name": "Getter for caption.",
+            "name": "getName",
             "return": {
-                "description": "caption",
+                "description": "name - name of Node.",
                 "type": "String"
             },
             "class": "Node"
@@ -344,7 +361,7 @@
             "file": "scripts\\gaslib\\Pipe.js",
             "line": 38,
             "itemtype": "method",
-            "name": "length",
+            "name": "lengthInKm",
             "return": {
                 "description": "returns distance between start Point and finish Point.",
                 "type": "*"
@@ -738,7 +755,7 @@
         },
         {
             "message": "replacing incorrect tag: returns with return",
-            "line": " scripts\\gaslib\\Collection.js:17"
+            "line": " scripts\\gaslib\\Collection.js:20"
         },
         {
             "message": "replacing incorrect tag: returns with return",
@@ -779,10 +796,6 @@
         {
             "message": "replacing incorrect tag: returns with return",
             "line": " require.js:1197"
-        },
-        {
-            "message": "Missing item type",
-            "line": " scripts\\gaslib\\Collection.js:17"
         },
         {
             "message": "Missing item type",

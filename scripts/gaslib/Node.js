@@ -11,7 +11,7 @@ define([
      */
     var Node = function(){
         this.position = new Point();
-        this.__caption = "Node";
+        this.__name = "Node";
     };
 
     /**
@@ -20,19 +20,19 @@ define([
     Node.constructor = Node;
 
     /**
-     * @method Setter for caption.
-     * @param name
+     * @method setName
+     * @param {string} name - name of Node.
      */
-    Node.prototype.setCaption = function(name) {
-        this.__caption = name;
+    Node.prototype.setName = function(name) {
+        this.__name = name;
     };
 
     /**
-     * @method Getter for caption.
-     * @returns {string} caption
+     * @method getName
+     * @returns {string} name - name of Node.
      */
-    Node.prototype.getCaption = function() {
-        return this.__caption;
+    Node.prototype.getName = function() {
+        return this.__name;
     };
 
 
