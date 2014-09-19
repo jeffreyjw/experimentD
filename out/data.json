@@ -241,6 +241,24 @@
             "class": "GasNetwork"
         },
         {
+            "file": "scripts\\gaslib\\Iterator.js",
+            "line": 18,
+            "return": {
+                "description": "true if collection has next item, otherwise false.",
+                "type": "Boolean"
+            },
+            "class": "Iterator"
+        },
+        {
+            "file": "scripts\\gaslib\\Iterator.js",
+            "line": 28,
+            "return": {
+                "description": "item of collection and iterates index.",
+                "type": "*"
+            },
+            "class": "Iterator"
+        },
+        {
             "file": "scripts\\gaslib\\Node.js",
             "line": 17,
             "type": "{Node}",
@@ -676,6 +694,14 @@
         },
         {
             "message": "replacing incorrect tag: returns with return",
+            "line": " scripts\\gaslib\\Iterator.js:18"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " scripts\\gaslib\\Iterator.js:28"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
             "line": " scripts\\gaslib\\Node.js:30"
         },
         {
@@ -717,6 +743,14 @@
         {
             "message": "Missing item type",
             "line": " scripts\\gaslib\\GasNetwork.js:28"
+        },
+        {
+            "message": "Missing item type",
+            "line": " scripts\\gaslib\\Iterator.js:18"
+        },
+        {
+            "message": "Missing item type",
+            "line": " scripts\\gaslib\\Iterator.js:28"
         },
         {
             "message": "Missing item type",

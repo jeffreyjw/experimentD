@@ -113,6 +113,27 @@ define([], function(){
 
     Iterator.constructor = Iterator;
 
+    /**
+     * @returns {boolean} true if collection has next item, otherwise false.
+     */
+    Iterator.prototype.hasNext = function() {
+        if (this.position === this.collection.length) {
+            return false;
+        }
+        return true;
+    };
+
+    /**
+     * @returns {*} item of collection and iterates index.
+     */
+    Iterator.prototype.next = function() {
+        if (this.hasNext()) {
+            this.position++;
+            return this.collection[this.position];
+        }
+        return false;
+    };
+
 
     return Iterator;
 });
