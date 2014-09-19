@@ -23,7 +23,7 @@ require([
 	});
 
 	network.nodes.__collection.forEach( function(node){
-		drawer.drawMarker(node.position, {caption: "caption", content: node.getName(), popup:"popup"});
+		drawer.drawMarker(node.position, {caption: "caption", content: node.getName() + "(" + node.position.lat + "," + node.position.lng + ")", popup:"popup"});
 	});
 
 });
