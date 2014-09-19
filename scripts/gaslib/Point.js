@@ -3,9 +3,10 @@ define([
 ], function(Angle){
 
     /**
-     * @param lat - Latitude of a Point
-     * @param lng - Longitude of a Point
      * @class Point
+     * @constructor
+     * @param lat - Latitude  of a Point
+     * @param lng - Longitude of a Point
      */
     var Point = function(lat, lng){
         lat = lat || 0;

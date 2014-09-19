@@ -163,10 +163,12 @@
             "extension_for": [],
             "file": "scripts\\gaslib\\Point.js",
             "line": 5,
+            "description": "Class representing a node in the network",
+            "is_constructor": 1,
             "params": [
                 {
                     "name": "lat",
-                    "description": "- Latitude of a Point"
+                    "description": "- Latitude  of a Point"
                 },
                 {
                     "name": "lng",
