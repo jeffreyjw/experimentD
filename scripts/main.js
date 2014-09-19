@@ -12,8 +12,14 @@ require([
 	network = JSONToGasNetworkConverter(networkData);
 	
 	network.pipes.__collection.forEach( function(pipe){
-		console.log(pipe);
-		drawer.drawLine(pipe.start, pipe.finish, {weight: 1, popup: 'flow: '+pipe.flow+' maxFlow: ' + pipe.maxFlow + ' usage: ' + pipe.usage() + ' lenght: ' + pipe.lengthInKm(), color: 'red', speed: 1});
+		var weight = 1;
+		if(pipe.flow < 10)
+			weight = 4;
+		else if(pipe.flow <= 1000)
+			weight = 6
+		else weight = 8
+
+		drawer.drawLine(pipe.start, pipe.finish, {weight: weight, popup: 'flow: '+pipe.flow+' maxFlow: ' + pipe.maxFlow + ' usage: ' + pipe.usage() + ' lenght: ' + pipe.lengthInKm(), color: 'red', speed: 1});
 	});
 
 	network.nodes.__collection.forEach( function(node){
