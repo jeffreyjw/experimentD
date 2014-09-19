@@ -10,7 +10,15 @@ define([
      * @constructor
      */
     var Pipe = function(){
+        /**
+         * @property flow
+         * @type {number}
+         */
         this.flow = 0;
+        /**
+         * @property maxFlow
+         * @type {number}
+         */
         this.maxFlow = 0;
         this.start = new Point();
         this.finish = new Point();
