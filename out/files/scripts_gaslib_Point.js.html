@@ -119,12 +119,18 @@ define([
 
     Point.constructor = Point;
 
-
+    /**
+     * @method latInRadians
+     * @returns {number} - latitude degrees converted to radians
+     */
     Point.prototype.latInRadians = function(){
         return Angle.degreeToRadian(this.lat);
     };
 
-
+    /**
+     * @method lngInRadians
+     * @returns {number} - longitude degrees converted to radians
+     */
     Point.prototype.lngInRadians = function(){
         return Angle.degreeToRadian(this.lng);
     };
