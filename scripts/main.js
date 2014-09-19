@@ -19,7 +19,17 @@ require([
 			weight = 6
 		else weight = 8
 
-		drawer.drawLine(pipe.start, pipe.finish, {weight: weight, popup: 'flow: '+pipe.flow+' maxFlow: ' + pipe.maxFlow + ' usage: ' + pipe.usage() + ' lenght: ' + pipe.lengthInKm(), color: 'red', speed: 1});
+		var color;
+		var usage = pipe.usage();
+		if(usage < 0.5)
+			color = 'green';
+		else if(usage <= 0.75)
+			color = 'blue';
+		else
+			color = 'red';
+		
+
+		drawer.drawLine(pipe.start, pipe.finish, {weight: weight, popup: 'flow: '+pipe.flow+' maxFlow: ' + pipe.maxFlow + ' usage: ' + pipe.usage() + ' lenght: ' + pipe.lengthInKm(), color: color, speed: 1});
 	});
 
 	network.nodes.__collection.forEach( function(node){
