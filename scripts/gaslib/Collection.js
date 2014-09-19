@@ -1,6 +1,6 @@
 define([
-    
-], function(){
+    "gaslib/Iterator"
+], function(Iterator){
 
     var Collection = function(){
         this.__collection = [];
