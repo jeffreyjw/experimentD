@@ -163,7 +163,6 @@
             "extension_for": [],
             "file": "scripts\\gaslib\\Point.js",
             "line": 5,
-            "description": "Class representing a node in the network",
             "is_constructor": 1,
             "params": [
                 {
@@ -253,21 +252,27 @@
         {
             "file": "scripts\\gaslib\\GasNetwork.js",
             "line": 21,
+            "itemtype": "method",
+            "name": "addPipe",
             "params": [
                 {
                     "name": "pipe",
-                    "description": "- Add pipe."
+                    "description": "",
+                    "type": "Pipe"
                 }
             ],
             "class": "GasNetwork"
         },
         {
             "file": "scripts\\gaslib\\GasNetwork.js",
-            "line": 28,
+            "line": 29,
+            "itemtype": "method",
+            "name": "addNode",
             "params": [
                 {
                     "name": "node",
-                    "description": "- Add node."
+                    "description": "",
+                    "type": "Node"
                 }
             ],
             "class": "GasNetwork"
@@ -767,14 +772,6 @@
         {
             "message": "Missing item type",
             "line": " scripts\\gaslib\\GasNetwork.js:16"
-        },
-        {
-            "message": "Missing item type",
-            "line": " scripts\\gaslib\\GasNetwork.js:21"
-        },
-        {
-            "message": "Missing item type",
-            "line": " scripts\\gaslib\\GasNetwork.js:28"
         },
         {
             "message": "Missing item type",

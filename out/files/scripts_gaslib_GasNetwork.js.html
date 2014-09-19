@@ -119,14 +119,16 @@ define([
     GasNetwork.constructor = GasNetwork;
 
     /**
-     * @param pipe - Add pipe.
+     * @method addPipe
+     * @param {Pipe} pipe
      */
     GasNetwork.prototype.addPipe = function(pipe){
         this.pipes.add(pipe);
     };
 
     /**
-     * @param node - Add node.
+     * @method addNode
+     * @param {Node} node
      */
     GasNetwork.prototype.addNode = function(node){
         this.nodes.add(node);
