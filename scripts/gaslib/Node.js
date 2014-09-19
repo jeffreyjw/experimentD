@@ -20,6 +20,23 @@ define([
     Node.constructor = Node;
 
     /**
+     * @method setPosition
+     * @param lat
+     * @param lng
+     */
+    Node.prototype.setPosition = function(lat, lng) {
+        this.position = new Point(lat, lng);
+    };
+
+    /**
+     * @method getPosition
+     * @returns {Point|*}
+     */
+    Node.prototype.getPosition = function() {
+        return this.position;
+    };
+
+    /**
      * @method setName
      * @param {string} name - name of Node.
      */

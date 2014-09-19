@@ -321,6 +321,34 @@
             "file": "scripts\\gaslib\\Node.js",
             "line": 22,
             "itemtype": "method",
+            "name": "setPosition",
+            "params": [
+                {
+                    "name": "lat",
+                    "description": ""
+                },
+                {
+                    "name": "lng",
+                    "description": ""
+                }
+            ],
+            "class": "Node"
+        },
+        {
+            "file": "scripts\\gaslib\\Node.js",
+            "line": 31,
+            "itemtype": "method",
+            "name": "getPosition",
+            "return": {
+                "description": "",
+                "type": "Point|*"
+            },
+            "class": "Node"
+        },
+        {
+            "file": "scripts\\gaslib\\Node.js",
+            "line": 39,
+            "itemtype": "method",
             "name": "setName",
             "params": [
                 {
@@ -333,7 +361,7 @@
         },
         {
             "file": "scripts\\gaslib\\Node.js",
-            "line": 30,
+            "line": 47,
             "itemtype": "method",
             "name": "getName",
             "return": {
@@ -352,6 +380,62 @@
             "file": "scripts\\gaslib\\Pipe.js",
             "line": 24,
             "itemtype": "method",
+            "name": "setStartPoint",
+            "params": [
+                {
+                    "name": "lat",
+                    "description": ""
+                },
+                {
+                    "name": "lng",
+                    "description": ""
+                }
+            ],
+            "class": "Pipe"
+        },
+        {
+            "file": "scripts\\gaslib\\Pipe.js",
+            "line": 33,
+            "itemtype": "method",
+            "name": "getStartPoint",
+            "return": {
+                "description": "",
+                "type": "Point|*"
+            },
+            "class": "Pipe"
+        },
+        {
+            "file": "scripts\\gaslib\\Pipe.js",
+            "line": 41,
+            "itemtype": "method",
+            "name": "setFinishPoint",
+            "params": [
+                {
+                    "name": "lat",
+                    "description": ""
+                },
+                {
+                    "name": "lng",
+                    "description": ""
+                }
+            ],
+            "class": "Pipe"
+        },
+        {
+            "file": "scripts\\gaslib\\Pipe.js",
+            "line": 50,
+            "itemtype": "method",
+            "name": "getFinishPoint",
+            "return": {
+                "description": "",
+                "type": "Point|*"
+            },
+            "class": "Pipe"
+        },
+        {
+            "file": "scripts\\gaslib\\Pipe.js",
+            "line": 58,
+            "itemtype": "method",
             "name": "usage",
             "return": {
                 "description": "Flow ratio of a maximum value.",
@@ -361,7 +445,7 @@
         },
         {
             "file": "scripts\\gaslib\\Pipe.js",
-            "line": 39,
+            "line": 73,
             "itemtype": "method",
             "name": "lengthInKm",
             "return": {
@@ -769,15 +853,27 @@
         },
         {
             "message": "replacing incorrect tag: returns with return",
-            "line": " scripts\\gaslib\\Node.js:30"
+            "line": " scripts\\gaslib\\Node.js:31"
         },
         {
             "message": "replacing incorrect tag: returns with return",
-            "line": " scripts\\gaslib\\Pipe.js:24"
+            "line": " scripts\\gaslib\\Node.js:47"
         },
         {
             "message": "replacing incorrect tag: returns with return",
-            "line": " scripts\\gaslib\\Pipe.js:39"
+            "line": " scripts\\gaslib\\Pipe.js:33"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " scripts\\gaslib\\Pipe.js:50"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " scripts\\gaslib\\Pipe.js:58"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " scripts\\gaslib\\Pipe.js:73"
         },
         {
             "message": "unknown tag: license",

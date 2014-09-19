@@ -22,6 +22,40 @@ define([
     Pipe.constructor = Pipe;
 
     /**
+     * @method setStartPoint
+     * @param lat
+     * @param lng
+     */
+    Pipe.constructor.setStartPoint = function(lat, lng) {
+        this.start = new Point(lat, lng);
+    };
+
+    /**
+     * @method getStartPoint
+     * @returns {Point|*}
+     */
+    Pipe.constructor.getStartPoint = function() {
+        return this.start;
+    };
+
+    /**
+     * @method setFinishPoint
+     * @param lat
+     * @param lng
+     */
+    Pipe.constructor.setFinishPoint = function(lat, lng) {
+        this.finish = new Point(lat, lng);
+    };
+
+    /**
+     * @method getFinishPoint
+     * @returns {Point|*}
+     */
+    Pipe.constructor.getFinishPoint = function() {
+        return this.finish;
+    };
+
+    /**
      * @method usage
      * @returns {float} Flow ratio of a maximum value.
      */
