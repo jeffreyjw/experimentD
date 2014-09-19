@@ -14,6 +14,13 @@ define([
         this.__collection.push(element);
     };
 
+    /**
+     * @returns {Iterator} Iterator of collection.
+     */
+    Collection.prototype.getIterator = function() {
+        return new Iterator(this.__collection);
+    };
+
 
     return Collection;
 });

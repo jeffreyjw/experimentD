@@ -10,6 +10,13 @@
             "fors": {},
             "namespaces": {}
         },
+        "scripts\\gaslib\\Collection.js": {
+            "name": "scripts\\gaslib\\Collection.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
         "scripts\\gaslib\\GasNetwork.js": {
             "name": "scripts\\gaslib\\GasNetwork.js",
             "modules": {},
@@ -195,6 +202,15 @@
                 "type": "Number"
             },
             "class": "Angle"
+        },
+        {
+            "file": "scripts\\gaslib\\Collection.js",
+            "line": 17,
+            "return": {
+                "description": "Iterator of collection.",
+                "type": "Iterator"
+            },
+            "class": "GasNetwork"
         },
         {
             "file": "scripts\\gaslib\\GasNetwork.js",
@@ -656,6 +672,10 @@
         },
         {
             "message": "replacing incorrect tag: returns with return",
+            "line": " scripts\\gaslib\\Collection.js:17"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
             "line": " scripts\\gaslib\\Node.js:30"
         },
         {
@@ -681,6 +701,10 @@
         {
             "message": "replacing incorrect tag: returns with return",
             "line": " require.js:1197"
+        },
+        {
+            "message": "Missing item type",
+            "line": " scripts\\gaslib\\Collection.js:17"
         },
         {
             "message": "Missing item type",
