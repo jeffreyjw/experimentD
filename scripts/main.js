@@ -23,7 +23,7 @@ require([
 	});
 
 	network.nodes.__collection.forEach( function(node){
-		drawer.drawMarker(node.position, {caption: "caption", content:"content", popup:"popup"});
+		drawer.drawMarker(node.position, {caption: "caption", content: node.getName(), popup:"popup"});
 	});
 
 });
