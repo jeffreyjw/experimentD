@@ -9,15 +9,19 @@ define([
 
     Collection.constructor = Collection;
 
-
+    /**
+     * @method add
+     * @param {*} element
+     */
     Collection.prototype.add = function(element){
         this.__collection.push(element);
     };
 
     /**
+     * @method iterator
      * @returns {Iterator} Iterator of collection.
      */
-    Collection.prototype.getIterator = function() {
+    Collection.prototype.iterator = function() {
         return new Iterator(this.__collection);
     };
 
