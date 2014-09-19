@@ -13,7 +13,9 @@
         "scripts\\gaslib\\Collection.js": {
             "name": "scripts\\gaslib\\Collection.js",
             "modules": {},
-            "classes": {},
+            "classes": {
+                "Collection": 1
+            },
             "fors": {},
             "namespaces": {}
         },
@@ -92,6 +94,19 @@
             "file": "scripts\\gaslib\\Angle.js",
             "line": 3,
             "description": "Angle converter",
+            "is_constructor": 1
+        },
+        "Collection": {
+            "name": "Collection",
+            "shortname": "Collection",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "scripts\\gaslib\\Collection.js",
+            "line": 5,
+            "description": "Collection class.",
             "is_constructor": 1
         },
         "GasNetwork": {
@@ -236,7 +251,7 @@
         },
         {
             "file": "scripts\\gaslib\\Collection.js",
-            "line": 12,
+            "line": 18,
             "itemtype": "method",
             "name": "add",
             "params": [
@@ -246,18 +261,18 @@
                     "type": "*"
                 }
             ],
-            "class": "GasNetwork"
+            "class": "Collection"
         },
         {
             "file": "scripts\\gaslib\\Collection.js",
-            "line": 20,
+            "line": 26,
             "itemtype": "method",
             "name": "iterator",
             "return": {
                 "description": "Iterator of collection.",
                 "type": "Iterator"
             },
-            "class": "GasNetwork"
+            "class": "Collection"
         },
         {
             "file": "scripts\\gaslib\\GasNetwork.js",
@@ -879,7 +894,7 @@
         },
         {
             "message": "replacing incorrect tag: returns with return",
-            "line": " scripts\\gaslib\\Collection.js:20"
+            "line": " scripts\\gaslib\\Collection.js:26"
         },
         {
             "message": "replacing incorrect tag: returns with return",
