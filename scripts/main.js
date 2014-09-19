@@ -13,7 +13,7 @@ require([
 	
 	network.pipes.__collection.forEach( function(pipe){
 		console.log(pipe);
-		drawer.drawLine(pipe.start, pipe.finish, {weight: 1, popup: 'trolo', color: 'red', speed: 1});
+		drawer.drawLine(pipe.start, pipe.finish, {weight: 1, popup: 'flow: '+pipe.flow+' maxFlow: ' + pipe.maxFlow + ' usage: ' + pipe.usage() + ' lenght: ' + pipe.lengthInKm(), color: 'red', speed: 1});
 	});
 
 	network.nodes.__collection.forEach( function(node){
