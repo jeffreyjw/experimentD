@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4353d865-b54f-42d6-8508-8ee22f031e82" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/gaslib/GasNetwork.js" afterPath="$PROJECT_DIR$/scripts/gaslib/GasNetwork.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/gaslib/Node.js" afterPath="$PROJECT_DIR$/scripts/gaslib/Node.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/gaslib/Pipe.js" afterPath="$PROJECT_DIR$/scripts/gaslib/Pipe.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="experimentD.iws" />
@@ -68,21 +66,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Node.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Node.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/gaslib/Node.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
-              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="10" selection-end-column="7" />
+            <state vertical-scroll-proportion="0.57110864" vertical-offset="0" max-vertical-offset="893">
+              <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Pipe.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Pipe.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/gaslib/Pipe.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5901456" vertical-offset="0" max-vertical-offset="893">
-              <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="782">
+              <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -101,9 +99,9 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/scripts/gaslib/Node.js" />
         <option value="$PROJECT_DIR$/scripts/gaslib/Pipe.js" />
         <option value="$PROJECT_DIR$/scripts/gaslib/GasNetwork.js" />
+        <option value="$PROJECT_DIR$/scripts/gaslib/Node.js" />
       </list>
     </option>
   </component>
@@ -359,18 +357,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/gaslib/Node.js">
+    <entry file="file://$PROJECT_DIR$/scripts/gaslib/Collection.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="10" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="893">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/gaslib/Pipe.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5901456" vertical-offset="0" max-vertical-offset="893">
-          <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="782">
+          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/gaslib/Node.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.57110864" vertical-offset="0" max-vertical-offset="893">
+          <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
           <folding />
         </state>
       </provider>
