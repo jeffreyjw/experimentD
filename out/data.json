@@ -341,6 +341,17 @@
             "class": "Pipe"
         },
         {
+            "file": "scripts\\gaslib\\Pipe.js",
+            "line": 38,
+            "itemtype": "method",
+            "name": "length",
+            "return": {
+                "description": "returns distance between start Point and finish Point.",
+                "type": "*"
+            },
+            "class": "Pipe"
+        },
+        {
             "file": "scripts\\maplib\\MapDrawer.js",
             "line": 38,
             "description": "Run line animations on the map",
@@ -744,6 +755,10 @@
         {
             "message": "replacing incorrect tag: returns with return",
             "line": " scripts\\gaslib\\Pipe.js:24"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " scripts\\gaslib\\Pipe.js:38"
         },
         {
             "message": "unknown tag: license",
