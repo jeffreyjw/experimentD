@@ -2,6 +2,11 @@ define([
     "gaslib/Angle"
 ], function(Angle){
 
+    /**
+     * @param lat - Latitude of a Point
+     * @param lng - Longitude of a Point
+     * @class Point
+     */
     var Point = function(lat, lng){
         lat = lat || 0;
         lng = lng || 0;

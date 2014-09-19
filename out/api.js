@@ -6,7 +6,8 @@ YUI.add("yuidoc-meta", function(Y) {
         "Iterator",
         "MapDrawer",
         "Node",
-        "Pipe"
+        "Pipe",
+        "Point"
     ],
     "modules": [],
     "allModules": []

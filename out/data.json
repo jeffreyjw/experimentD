@@ -53,6 +53,15 @@
             "fors": {},
             "namespaces": {}
         },
+        "scripts\\gaslib\\Point.js": {
+            "name": "scripts\\gaslib\\Point.js",
+            "modules": {},
+            "classes": {
+                "Point": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
         "scripts\\maplib\\MapDrawer.js": {
             "name": "scripts\\maplib\\MapDrawer.js",
             "modules": {},
@@ -143,6 +152,27 @@
             "line": 6,
             "description": "Class representing a pipe in the network",
             "is_constructor": 1
+        },
+        "Point": {
+            "name": "Point",
+            "shortname": "Point",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "scripts\\gaslib\\Point.js",
+            "line": 5,
+            "params": [
+                {
+                    "name": "lat",
+                    "description": "- Latitude of a Point"
+                },
+                {
+                    "name": "lng",
+                    "description": "- Longitude of a Point"
+                }
+            ]
         },
         "MapDrawer": {
             "name": "MapDrawer",
